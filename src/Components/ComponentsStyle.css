@@ -1,0 +1,109 @@
+html{
+    font-size: 62.5%;
+}
+
+/* Header File Start */
+
+header{
+    padding: 0 12rem;
+    box-shadow: 0.3rem 0.3rem 0.8rem lightgray;
+    position: sticky;
+    top:0;
+    background-color: #fff;
+}
+
+nav{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+}
+
+nav img{
+    width: 15rem;
+    height: 5.5rem;
+}
+
+/* Header File End */
+
+
+
+/* Footer File Start */
+
+.footerBox{
+    background-color: rgb(245, 243, 243);
+    padding: 0 10rem;
+}
+
+.allFooterDivs{
+    height: 12rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footerLogo{
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo img{
+    width: 15rem;
+}
+
+.footerSocialMedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: gray;
+}
+
+.footerLastLine{
+    font-size: 1.3rem;
+    padding: 5rem 0 1rem 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Footer File End */
+
+
+
+
+
+
+
+/* Media query for Tablet and Mobile devices */
+
+@media (max-width:1025px) {         /* small laptops */
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width:770px) {          /* for tablets */
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (max-width:380px) {          /* For mobiles */
+    html{
+        font-size: 40%;
+    }
+    .footerBox{
+        padding: 0 5rem;
+    }
+    .incrementDecrement{
+        padding-left: 4rem;
+    }
+    .removeItem{
+        padding-left: 4rem;
+    }
+}
+
+@media (max-width: 320px) {
+    html{
+        font-size: 35%;
+    }
+}
